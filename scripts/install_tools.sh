@@ -48,7 +48,6 @@ apt install goaccess -y
 
 mkdir -p /var/www/html/stats
 
-# uwu
 
 goaccess /var/log/apache2/access.log -o /var/www/html/stats/index.html --log-format=COMBINED --real-time-html --daemonize
 
